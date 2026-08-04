@@ -3,3 +3,6 @@ site/data/
 
 node_modules/
 .DS_Store
+
+# scratch output from local browser testing
+.playwright-mcp/

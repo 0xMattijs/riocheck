@@ -32,7 +32,6 @@ function el(tag, props = {}, children = []) {
     if (v == null || v === false) continue;
     if (k === 'class') node.className = v;
     else if (k === 'text') node.textContent = v;
-    else if (k === 'html') node.innerHTML = v;
     else if (k.startsWith('on')) node.addEventListener(k.slice(2), v);
     else node.setAttribute(k, v === true ? '' : v);
   }
@@ -40,6 +39,15 @@ function el(tag, props = {}, children = []) {
     if (child) node.append(child);
   }
   return node;
+}
+
+/**
+ * Backstop for anything that becomes an href. The build already drops non-http
+ * URLs from the export, but the shards are plain JSON on a CDN and a
+ * `javascript:` link only needs one click, so the sink checks for itself.
+ */
+function safeUrl(value) {
+  return value && /^https?:\/\//i.test(value) ? value : null;
 }
 
 const nf = new Intl.NumberFormat('nl-NL');
@@ -156,14 +164,16 @@ function orgBlock(entry) {
   const org = organisation(entry.o);
   if (!org) return null;
   const types = typeLabel(org);
+  const detail = safeUrl(entry.u);
+  const register = safeUrl(org.register);
   return el('div', {}, [
     el('div', { class: 'org' }, [
       el('h3', { text: org.naam || 'Onbekende organisatie' }),
       types ? el('span', { class: 'org__types', text: types }) : null,
     ]),
     el('div', { class: 'finding__links' }, [
-      entry.u ? el('a', { href: entry.u, rel: 'noopener', text: 'Deze registratie in het RIO ↗' }) : null,
-      org.register ? el('a', { href: org.register, rel: 'noopener', text: 'Alle domeinen van deze organisatie ↗' }) : null,
+      detail ? el('a', { href: detail, rel: 'noopener', text: 'Deze registratie in het RIO ↗' }) : null,
+      register ? el('a', { href: register, rel: 'noopener', text: 'Alle domeinen van deze organisatie ↗' }) : null,
       org.site ? el('a', { href: `https://${org.site}`, rel: 'noopener', text: `${org.site} ↗` }) : null,
     ]),
   ]);
@@ -334,8 +344,8 @@ function orgHits(matches) {
       { class: 'hits' },
       matches.map((org) =>
         el('li', {}, [
-          org.register
-            ? el('a', { href: org.register, rel: 'noopener', text: `${org.naam} ↗` })
+          safeUrl(org.register)
+            ? el('a', { href: safeUrl(org.register), rel: 'noopener', text: `${org.naam} ↗` })
             : el('span', { text: org.naam }),
           el('span', { text: typeLabel(org) }),
         ]),

@@ -8,6 +8,13 @@
       name="description"
       content="Zoek een domeinnaam op in het Register Internetdomeinen Overheid (RIO) en zie meteen welke overheidsorganisatie erachter zit. Dagelijks ververst."
     />
+    <!-- GitHub Pages cannot set response headers, so the policy ships in the
+         document. frame-ancestors is ignored in a meta tag; framing is blocked
+         at the CDN in front of the domain. -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'none'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; base-uri 'none'; form-action 'self'"
+    />
     <meta name="color-scheme" content="light" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

@@ -92,6 +92,21 @@ function hostOnly(value) {
   return host || null;
 }
 
+/**
+ * Every URL the register hands us ends up in an href, so only http(s) survives:
+ * a `javascript:` detailURL would otherwise run on click. Entries are submitted
+ * by the listed organisations themselves, so the export is not trusted markup.
+ */
+function httpUrl(value) {
+  if (!value) return null;
+  try {
+    const url = new URL(value.trim());
+    return url.protocol === 'https:' || url.protocol === 'http:' ? url.href : null;
+  } catch {
+    return null; // relative or malformed — nothing we can safely link to
+  }
+}
+
 function scores(node) {
   const out = {};
   for (const report of grandChildren(node, 'kwaliteitsRapporten', 'kwaliteitsRapport')) {
@@ -134,7 +149,7 @@ export function parseRio(xml) {
       naam: childText(node, 'naam'),
       afkorting: childText(node, 'afkorting'),
       types: grandChildren(node, 'types', 'type').map((t) => decode(t.text).trim()),
-      register: childText(node, 'overzichtURL'),
+      register: httpUrl(childText(node, 'overzichtURL')),
       site: contact ? hostOnly(childText(contact, 'url')) : null,
       tooi: node.attrs.resourceIdentifierTOOI || null,
     });
@@ -148,7 +163,7 @@ export function parseRio(xml) {
         naam,
         org: orgId,
         doel: childText(reg, 'doel'),
-        detail: childText(reg, 'detailURL'),
+        detail: httpUrl(childText(reg, 'detailURL')),
         houder: childText(reg, 'registratieHouder'),
         registrar: childText(reg, 'registrar'),
         van: childText(reg, 'geregistreerdSinds') || childText(reg, 'registratieDatum'),
@@ -167,7 +182,7 @@ export function parseRio(xml) {
         naam,
         org: orgId,
         doel: childText(dom, 'gebruiksdoel'),
-        detail: childText(dom, 'detailURL'),
+        detail: httpUrl(childText(dom, 'detailURL')),
         onder: parent ? hostOnly(decode(parent.text).trim()) : null,
         omschrijving: childText(dom, 'omschrijving'),
         van: childText(dom, 'geregistreerdSinds'),
