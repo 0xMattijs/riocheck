@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RIO-check — is dit een domein van de Nederlandse overheid?</title>
+    <meta
+      name="description"
+      content="Zoek een domeinnaam op in het Register Internetdomeinen Overheid (RIO) en zie meteen welke overheidsorganisatie erachter zit. Dagelijks ververst."
+    />
+    <meta name="color-scheme" content="light" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23131a1f'/%3E%3Cpath d='M8 17.5l5 5 11-13' fill='none' stroke='%2334d399' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E"
+    />
+  </head>
+  <body>
+    <header class="console">
+      <div class="wrap">
+        <div class="console__top">
+          <a class="wordmark" href="./" aria-label="RIO-check, naar de startpagina">
+            <span class="wordmark__mark" aria-hidden="true">✓</span>
+            <span class="wordmark__text">RIO<span class="wordmark__dot">·</span>check</span>
+          </a>
+          <p class="console__source">
+            bron: <a href="https://organisaties.overheid.nl/domeinen">Register Internetdomeinen Overheid</a>
+          </p>
+        </div>
+
+        <h1 class="lede">Is dit domein van de&nbsp;overheid?</h1>
+
+        <form class="probe" id="form" role="search" autocomplete="off">
+          <label class="visually-hidden" for="q">Domeinnaam of link</label>
+          <span class="probe__caret" aria-hidden="true">›</span>
+          <input
+            id="q"
+            name="q"
+            type="text"
+            inputmode="url"
+            spellcheck="false"
+            autocapitalize="off"
+            placeholder="belastingdienst.nl — of plak een hele link"
+          />
+          <button type="button" class="probe__clear" id="clear" hidden aria-label="Zoekveld wissen">
+            ×
+          </button>
+        </form>
+
+        <p class="readout" id="readout">Het register wordt geladen…</p>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <section id="verdict" class="verdict" aria-live="polite" aria-atomic="true"></section>
+
+      <section class="panel" id="changes-panel" hidden>
+        <div class="panel__head">
+          <h2>Wijzigingen</h2>
+          <p class="panel__note">
+            Elke dag vergeleken met de export van de dag ervoor. Nieuw en verdwenen zijn de
+            interessante gevallen.
+          </p>
+        </div>
+        <div class="days" id="days"></div>
+        <div class="changelist" id="changelist"></div>
+      </section>
+
+      <section class="panel panel--flat">
+        <div class="panel__head">
+          <h2>Wat zegt dit register wel en niet</h2>
+        </div>
+        <div class="prose">
+          <p>
+            Het RIO is het officiële overzicht van internetdomeinen die door Nederlandse
+            overheidsorganisaties zijn geregistreerd. Staat een domein erin, dan is het van de
+            organisatie die erbij vermeld staat.
+          </p>
+          <p>
+            <strong>Andersom geldt dat niet.</strong> Het register is sinds 2024 in opbouw en nog
+            niet compleet: gemeenten, provincies en waterschappen leveren hun gegevens gaandeweg
+            aan. Een domein dat hier ontbreekt kan dus nog steeds echt zijn — en een domein dat
+            erop lijkt maar er niet in staat, is niet automatisch nep. Twijfel je over een link in
+            een mail of sms, ga dan naar de website van de organisatie via je eigen zoekmachine of
+            bookmark.
+          </p>
+          <p>
+            Deze site is een onafhankelijke zoekhulp en geen dienst van de rijksoverheid. Alle
+            gegevens komen ongewijzigd uit
+            <a href="https://organisaties.overheid.nl/archive/exportRIO.xml">exportRIO.xml</a> en
+            elk resultaat linkt terug naar de bijbehorende pagina op organisaties.overheid.nl.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <div class="wrap foot__grid">
+        <p id="foot-meta">—</p>
+        <p>
+          Zoeken gebeurt volledig in je browser. Er wordt per zoekopdracht één klein indexbestand
+          opgehaald; wat je typt gaat niet naar een server.
+        </p>
+      </div>
+    </footer>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+name: RIO verversen en publiceren
+
+on:
+  schedule:
+    # 05:20 UTC — the register stamps its export around 00:45 Amsterdam time,
+    # so this always picks up the same calendar day's file.
+    - cron: '20 5 * * *'
+  push:
+    branches: [main]
+    paths-ignore: ['data/**', 'README.md']
+  workflow_dispatch:
+
+permissions:
+  contents: write # commit the snapshot + change log
+  pages: write
+  id-token: write
+
+concurrency:
+  group: rio-refresh
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Ophalen en index bouwen
+        id: build
+        run: node scripts/build.mjs
+
+      - name: Snapshot en wijzigingen vastleggen
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "Geen wijzigingen in het register."
+          else
+            git commit -m "RIO ${{ steps.build.outputs.datum }}: ${{ steps.build.outputs.summary }}"
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,5 @@
+# Generated every build from data/snapshot.ndjson — published, never committed.
+site/data/
+
+node_modules/
+.DS_Store
