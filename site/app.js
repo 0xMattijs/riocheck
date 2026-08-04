@@ -50,6 +50,9 @@ function safeUrl(value) {
   return value && /^https?:\/\//i.test(value) ? value : null;
 }
 
+/** The ↗ in these link labels promises a new tab, so actually open one. */
+const EXTERNAL = { target: '_blank', rel: 'noopener noreferrer' };
+
 const nf = new Intl.NumberFormat('nl-NL');
 
 function date(value, withTime = false) {
@@ -90,7 +93,9 @@ function loadShard(name) {
 
 async function entriesFor(name) {
   const shard = await loadShard(name);
-  return shard[name] || null;
+  // Own keys only: the lookup key comes from the query box, so a name like
+  // "toString" would otherwise resolve to something off Object.prototype.
+  return Object.hasOwn(shard, name) ? shard[name] : null;
 }
 
 function loadNames() {
@@ -120,8 +125,14 @@ const PURPOSE = {
   Onbekend: 'onbekend',
 };
 
+/** The label for a register value, or the raw value when it is one we don't know. */
+function purposeLabel(value) {
+  if (!value) return null;
+  return Object.hasOwn(PURPOSE, value) ? PURPOSE[value] : value;
+}
+
 function organisation(id) {
-  return orgs[id] || null;
+  return Object.hasOwn(orgs, id) ? orgs[id] : null;
 }
 
 function ladder(host, matched) {
@@ -140,7 +151,7 @@ function facts(entry) {
   };
 
   add('Soort', entry.k === 0 ? 'Geregistreerde domeinnaam' : 'Naam onder een registratie');
-  add('Gebruik', entry.p ? (PURPOSE[entry.p] ?? entry.p) : null);
+  add('Gebruik', purposeLabel(entry.p));
   if (entry.k === 1) add('Valt onder', entry.b);
   add('Houder', entry.h);
   add('Registrar', entry.r);
@@ -172,9 +183,9 @@ function orgBlock(entry) {
       types ? el('span', { class: 'org__types', text: types }) : null,
     ]),
     el('div', { class: 'finding__links' }, [
-      detail ? el('a', { href: detail, rel: 'noopener', text: 'Deze registratie in het RIO ↗' }) : null,
-      register ? el('a', { href: register, rel: 'noopener', text: 'Alle domeinen van deze organisatie ↗' }) : null,
-      org.site ? el('a', { href: `https://${org.site}`, rel: 'noopener', text: `${org.site} ↗` }) : null,
+      detail ? el('a', { href: detail, ...EXTERNAL, text: 'Deze registratie in het RIO ↗' }) : null,
+      register ? el('a', { href: register, ...EXTERNAL, text: 'Alle domeinen van deze organisatie ↗' }) : null,
+      org.site ? el('a', { href: `https://${org.site}`, ...EXTERNAL, text: `${org.site} ↗` }) : null,
     ]),
   ]);
 }
@@ -191,7 +202,7 @@ function alsoBlock(rest) {
           el('span', {
             text: entry.k === 0 ? 'geregistreerde domeinnaam' : `naam onder ${entry.b || 'een registratie'}`,
           }),
-          entry.p ? el('span', { text: `· ${PURPOSE[entry.p] ?? entry.p}` }) : null,
+          entry.p ? el('span', { text: `· ${purposeLabel(entry.p)}` }) : null,
         ]),
       ),
     ),
@@ -345,7 +356,7 @@ function orgHits(matches) {
       matches.map((org) =>
         el('li', {}, [
           safeUrl(org.register)
-            ? el('a', { href: safeUrl(org.register), rel: 'noopener', text: `${org.naam} ↗` })
+            ? el('a', { href: safeUrl(org.register), ...EXTERNAL, text: `${org.naam} ↗` })
             : el('span', { text: org.naam }),
           el('span', { text: typeLabel(org) }),
         ]),
