@@ -1,0 +1,84 @@
+[
+ {
+  "datum": "2026-08-05",
+  "bron": "2026-08-05T00:45:04.717+02:00",
+  "aantallen": {
+   "toegevoegd": 4,
+   "verwijderd": 0,
+   "gewijzigd": 4
+  },
+  "toegevoegd": [
+   {
+    "naam": "mijn.meppel.nl",
+    "kind": "host",
+    "org": "Gemeente Meppel"
+   },
+   {
+    "naam": "projecten.meppel.nl",
+    "kind": "host",
+    "org": "Gemeente Meppel"
+   },
+   {
+    "naam": "stadsbusmeppel.nl",
+    "kind": "host",
+    "org": "Gemeente Meppel"
+   },
+   {
+    "naam": "stadsbusmeppel.nl",
+    "kind": "reg",
+    "org": "Gemeente Meppel"
+   }
+  ],
+  "verwijderd": [],
+  "gewijzigd": [
+   {
+    "naam": "kvssdenhelder.nl",
+    "kind": "host",
+    "org": "Provincie Noord-Holland",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "kvssdenhelder.nl",
+    "kind": "reg",
+    "org": "Provincie Noord-Holland",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "rondjenaardermeer.nl",
+    "kind": "host",
+    "org": "Provincie Noord-Holland",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "rondjenaardermeer.nl",
+    "kind": "reg",
+    "org": "Provincie Noord-Holland",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   }
+  ]
+ }
+]
