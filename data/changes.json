@@ -1,5 +1,114 @@
 [
  {
+  "datum": "2026-08-06",
+  "bron": "2026-08-06T00:45:04.198+02:00",
+  "aantallen": {
+   "toegevoegd": 0,
+   "verwijderd": 0,
+   "gewijzigd": 8
+  },
+  "toegevoegd": [],
+  "verwijderd": [],
+  "gewijzigd": [
+   {
+    "naam": "hovgooi.nl",
+    "kind": "host",
+    "org": "Provincie Noord-Holland",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "hovgooi.nl",
+    "kind": "reg",
+    "org": "Provincie Noord-Holland",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "hovhuizenhilversum.nl",
+    "kind": "host",
+    "org": "Provincie Noord-Holland",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "hovhuizenhilversum.nl",
+    "kind": "reg",
+    "org": "Provincie Noord-Holland",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "hovinhetgooi.nl",
+    "kind": "host",
+    "org": "Provincie Noord-Holland",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "hovinhetgooi.nl",
+    "kind": "reg",
+    "org": "Provincie Noord-Holland",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "hovintgooi.nl",
+    "kind": "host",
+    "org": "Provincie Noord-Holland",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "hovintgooi.nl",
+    "kind": "reg",
+    "org": "Provincie Noord-Holland",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   }
+  ]
+ },
+ {
   "datum": "2026-08-05",
   "bron": "2026-08-05T00:45:04.717+02:00",
   "aantallen": {
