@@ -5,56 +5,11 @@
   "aantallen": {
    "toegevoegd": 0,
    "verwijderd": 0,
-   "gewijzigd": 4
+   "gewijzigd": 0
   },
   "toegevoegd": [],
   "verwijderd": [],
-  "gewijzigd": [
-   {
-    "naam": "hovgooi.nl",
-    "org": "Provincie Noord-Holland",
-    "velden": [
-     {
-      "veld": "tot",
-      "van": null,
-      "naar": "2026-08-31"
-     }
-    ]
-   },
-   {
-    "naam": "hovhuizenhilversum.nl",
-    "org": "Provincie Noord-Holland",
-    "velden": [
-     {
-      "veld": "tot",
-      "van": null,
-      "naar": "2026-08-31"
-     }
-    ]
-   },
-   {
-    "naam": "hovinhetgooi.nl",
-    "org": "Provincie Noord-Holland",
-    "velden": [
-     {
-      "veld": "tot",
-      "van": null,
-      "naar": "2026-08-31"
-     }
-    ]
-   },
-   {
-    "naam": "hovintgooi.nl",
-    "org": "Provincie Noord-Holland",
-    "velden": [
-     {
-      "veld": "tot",
-      "van": null,
-      "naar": "2026-08-31"
-     }
-    ]
-   }
-  ]
+  "gewijzigd": []
  },
  {
   "datum": "2026-08-05",
