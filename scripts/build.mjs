@@ -52,6 +52,29 @@ async function readSnapshot(file) {
   return map;
 }
 
+/**
+ * The register keeps two records per domain name — the domain itself and its
+ * registration — and they almost always move together. Reporting both would
+ * show every change twice, so collapse them onto the name the site searches by.
+ * Field changes are unioned: a rename shows once, a registrar swap still shows.
+ */
+function mergeByName(list) {
+  const out = new Map();
+  for (const item of list) {
+    const key = JSON.stringify([item.naam, item.org ?? null]);
+    const seen = out.get(key);
+    if (!seen) {
+      out.set(key, item.velden ? { ...item, velden: [...item.velden] } : { ...item });
+      continue;
+    }
+    for (const v of item.velden ?? []) {
+      const same = (s) => s.veld === v.veld && s.van === v.van && s.naar === v.naar;
+      if (!seen.velden.some(same)) seen.velden.push(v);
+    }
+  }
+  return [...out.values()];
+}
+
 function diff(previous, current, orgName) {
   const added = [];
   const removed = [];
@@ -60,14 +83,13 @@ function diff(previous, current, orgName) {
   for (const [id, entry] of current) {
     const before = previous.get(id);
     if (!before) {
-      added.push({ naam: entry.naam, kind: entry.kind, org: orgName(entry.org) });
+      added.push({ naam: entry.naam, org: orgName(entry.org) });
       continue;
     }
     const fields = TRACKED.filter((f) => (before[f] ?? null) !== (entry[f] ?? null));
     if (fields.length) {
       changed.push({
         naam: entry.naam,
-        kind: entry.kind,
         org: orgName(entry.org),
         velden: fields.map((f) => ({ veld: f, van: before[f] ?? null, naar: entry[f] ?? null })),
       });
@@ -75,12 +97,12 @@ function diff(previous, current, orgName) {
   }
   for (const [id, entry] of previous) {
     if (!current.has(id)) {
-      removed.push({ naam: entry.naam, kind: entry.kind, org: orgName(entry.org) });
+      removed.push({ naam: entry.naam, org: orgName(entry.org) });
     }
   }
 
   const byName = (a, b) => a.naam.localeCompare(b.naam);
-  return [added, removed, changed].map((list) => list.sort(byName));
+  return [added, removed, changed].map((list) => mergeByName(list).sort(byName));
 }
 
 function cap(list) {
