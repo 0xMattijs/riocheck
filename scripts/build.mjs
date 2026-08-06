@@ -54,55 +54,54 @@ async function readSnapshot(file) {
 
 /**
  * The register keeps two records per domain name — the domain itself and its
- * registration — and they almost always move together. Reporting both would
- * show every change twice, so collapse them onto the name the site searches by.
- * Field changes are unioned: a rename shows once, a registrar swap still shows.
+ * registration — and they usually move together, so the same change arrives
+ * twice and the panel shows two rows a reader cannot tell apart.
+ *
+ * Records collapse only when everything the site displays is identical: the
+ * name, the organisation and the exact field changes. Records that moved
+ * differently stay apart — 436 name+org groups in the register already hold
+ * two different `tot` values, and folding those together would put two values
+ * for one field on a single line with nothing left to distinguish them.
+ *
+ * Keyed on the lower-cased name, matching the shard index, because a handful of
+ * pairs differ only in case; and on the organisation *id*, because the resolved
+ * name is a display value that is null once an organisation leaves the register.
  */
-function mergeByName(list) {
-  const out = new Map();
-  for (const item of list) {
-    const key = JSON.stringify([item.naam, item.org ?? null]);
-    const seen = out.get(key);
-    if (!seen) {
-      out.set(key, item.velden ? { ...item, velden: [...item.velden] } : { ...item });
-      continue;
-    }
-    for (const v of item.velden ?? []) {
-      const same = (s) => s.veld === v.veld && s.van === v.van && s.naar === v.naar;
-      if (!seen.velden.some(same)) seen.velden.push(v);
-    }
-  }
-  return [...out.values()];
+function collect(out, entry, orgName, velden) {
+  const key = JSON.stringify([entry.naam.toLowerCase(), entry.org ?? null, velden ?? null]);
+  if (out.has(key)) return;
+  const item = { naam: entry.naam, org: orgName(entry.org) };
+  if (velden) item.velden = velden;
+  out.set(key, item);
 }
 
 function diff(previous, current, orgName) {
-  const added = [];
-  const removed = [];
-  const changed = [];
+  const added = new Map();
+  const removed = new Map();
+  const changed = new Map();
 
   for (const [id, entry] of current) {
     const before = previous.get(id);
     if (!before) {
-      added.push({ naam: entry.naam, org: orgName(entry.org) });
+      collect(added, entry, orgName);
       continue;
     }
     const fields = TRACKED.filter((f) => (before[f] ?? null) !== (entry[f] ?? null));
     if (fields.length) {
-      changed.push({
-        naam: entry.naam,
-        org: orgName(entry.org),
-        velden: fields.map((f) => ({ veld: f, van: before[f] ?? null, naar: entry[f] ?? null })),
-      });
+      collect(
+        changed,
+        entry,
+        orgName,
+        fields.map((f) => ({ veld: f, van: before[f] ?? null, naar: entry[f] ?? null })),
+      );
     }
   }
   for (const [id, entry] of previous) {
-    if (!current.has(id)) {
-      removed.push({ naam: entry.naam, org: orgName(entry.org) });
-    }
+    if (!current.has(id)) collect(removed, entry, orgName);
   }
 
   const byName = (a, b) => a.naam.localeCompare(b.naam);
-  return [added, removed, changed].map((list) => mergeByName(list).sort(byName));
+  return [added, removed, changed].map((m) => [...m.values()].sort(byName));
 }
 
 function cap(list) {
