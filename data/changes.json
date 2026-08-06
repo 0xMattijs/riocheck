@@ -5,26 +5,13 @@
   "aantallen": {
    "toegevoegd": 0,
    "verwijderd": 0,
-   "gewijzigd": 8
+   "gewijzigd": 4
   },
   "toegevoegd": [],
   "verwijderd": [],
   "gewijzigd": [
    {
     "naam": "hovgooi.nl",
-    "kind": "host",
-    "org": "Provincie Noord-Holland",
-    "velden": [
-     {
-      "veld": "tot",
-      "van": null,
-      "naar": "2026-08-31"
-     }
-    ]
-   },
-   {
-    "naam": "hovgooi.nl",
-    "kind": "reg",
     "org": "Provincie Noord-Holland",
     "velden": [
      {
@@ -36,19 +23,6 @@
    },
    {
     "naam": "hovhuizenhilversum.nl",
-    "kind": "host",
-    "org": "Provincie Noord-Holland",
-    "velden": [
-     {
-      "veld": "tot",
-      "van": null,
-      "naar": "2026-08-31"
-     }
-    ]
-   },
-   {
-    "naam": "hovhuizenhilversum.nl",
-    "kind": "reg",
     "org": "Provincie Noord-Holland",
     "velden": [
      {
@@ -60,19 +34,6 @@
    },
    {
     "naam": "hovinhetgooi.nl",
-    "kind": "host",
-    "org": "Provincie Noord-Holland",
-    "velden": [
-     {
-      "veld": "tot",
-      "van": null,
-      "naar": "2026-08-31"
-     }
-    ]
-   },
-   {
-    "naam": "hovinhetgooi.nl",
-    "kind": "reg",
     "org": "Provincie Noord-Holland",
     "velden": [
      {
@@ -84,19 +45,6 @@
    },
    {
     "naam": "hovintgooi.nl",
-    "kind": "host",
-    "org": "Provincie Noord-Holland",
-    "velden": [
-     {
-      "veld": "tot",
-      "van": null,
-      "naar": "2026-08-31"
-     }
-    ]
-   },
-   {
-    "naam": "hovintgooi.nl",
-    "kind": "reg",
     "org": "Provincie Noord-Holland",
     "velden": [
      {
@@ -112,29 +60,21 @@
   "datum": "2026-08-05",
   "bron": "2026-08-05T00:45:04.717+02:00",
   "aantallen": {
-   "toegevoegd": 4,
+   "toegevoegd": 3,
    "verwijderd": 0,
-   "gewijzigd": 4
+   "gewijzigd": 2
   },
   "toegevoegd": [
    {
     "naam": "mijn.meppel.nl",
-    "kind": "host",
     "org": "Gemeente Meppel"
    },
    {
     "naam": "projecten.meppel.nl",
-    "kind": "host",
     "org": "Gemeente Meppel"
    },
    {
     "naam": "stadsbusmeppel.nl",
-    "kind": "host",
-    "org": "Gemeente Meppel"
-   },
-   {
-    "naam": "stadsbusmeppel.nl",
-    "kind": "reg",
     "org": "Gemeente Meppel"
    }
   ],
@@ -142,19 +82,6 @@
   "gewijzigd": [
    {
     "naam": "kvssdenhelder.nl",
-    "kind": "host",
-    "org": "Provincie Noord-Holland",
-    "velden": [
-     {
-      "veld": "tot",
-      "van": null,
-      "naar": "2026-08-31"
-     }
-    ]
-   },
-   {
-    "naam": "kvssdenhelder.nl",
-    "kind": "reg",
     "org": "Provincie Noord-Holland",
     "velden": [
      {
@@ -166,19 +93,6 @@
    },
    {
     "naam": "rondjenaardermeer.nl",
-    "kind": "host",
-    "org": "Provincie Noord-Holland",
-    "velden": [
-     {
-      "veld": "tot",
-      "van": null,
-      "naar": "2026-08-31"
-     }
-    ]
-   },
-   {
-    "naam": "rondjenaardermeer.nl",
-    "kind": "reg",
     "org": "Provincie Noord-Holland",
     "velden": [
      {
