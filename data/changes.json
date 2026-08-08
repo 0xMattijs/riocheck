@@ -1,5 +1,234 @@
 [
  {
+  "datum": "2026-08-08",
+  "bron": "2026-08-08T00:45:04.422+02:00",
+  "aantallen": {
+   "toegevoegd": 54,
+   "verwijderd": 0,
+   "gewijzigd": 0
+  },
+  "toegevoegd": [
+   {
+    "naam": "barrahus.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "bureauzelfstandigenfriesland.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "de-klamp.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "dedienst.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "defryskeflekspool.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "doorstroompunt-fn.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "doorstroompunt-friesland-noord.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "doorstroompuntfrieslandnoord.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "fiets-in-de-p.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "fietsindep.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "frieslandwerkt.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "friesstedelijknetwerk.frl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "friesstedelijknetwerk.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "fryskeflekspool.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "goedterechtinleeuwarden.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "grensverleggendspoordok.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "huren-in-spoordok.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "huren-spoordok.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "hureninspoordok.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "hurenspoordok.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "kiesleeuwarden.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "koop-spoordok.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "leeuw-worden.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "leeuwardenoost.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "lwdforeyc.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "middelsee.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "mijnleeuwarden.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "nieuwbouw-middelsee.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "nieuwbouw-spoordok.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "nieuwbouwmiddelsee.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "nieuwbouwspoordok.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "ondernemendleeuwarden.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "scheideninfriesland.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "spoordoc.com",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "spoordoc.eu",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "spoordok-leeuwarden.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "spoordok-nieuwbouw.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "spoordokhuurwoningen.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "spoordokwonen.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "thuisinspoordok.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "werkcentrumfriesland.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "werkcentrumfryslan.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "werkslimreisslim.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "wonenindehem.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "wonenindeklamp.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "woneninmiddelsee.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "woneninspoordok.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "woneninunia.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "woneninwiarda.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "www.dedienst.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "www.doorstroompunt-friesland-noord.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "www.leeuwardenoost.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "www.werkcentrumfryslan.nl",
+    "org": "Gemeente Leeuwarden"
+   },
+   {
+    "naam": "www.werkslimreisslim.nl",
+    "org": "Gemeente Leeuwarden"
+   }
+  ],
+  "verwijderd": [],
+  "gewijzigd": []
+ },
+ {
   "datum": "2026-08-06",
   "bron": "2026-08-06T00:45:04.198+02:00",
   "aantallen": {
