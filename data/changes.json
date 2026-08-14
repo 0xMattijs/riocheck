@@ -1,5 +1,62 @@
 [
  {
+  "datum": "2026-08-14",
+  "bron": "2026-08-14T00:45:04.588+02:00",
+  "aantallen": {
+   "toegevoegd": 11,
+   "verwijderd": 0,
+   "gewijzigd": 0
+  },
+  "toegevoegd": [
+   {
+    "naam": "bros-academie.deurne.nl",
+    "org": "Gemeente Deurne"
+   },
+   {
+    "naam": "deurne.bestuurlijkeinformatie.nl",
+    "org": "Gemeente Deurne"
+   },
+   {
+    "naam": "deurne.mijnafspraakmaken.nl",
+    "org": "Gemeente Deurne"
+   },
+   {
+    "naam": "deurne.nl",
+    "org": "Gemeente Deurne"
+   },
+   {
+    "naam": "huisvoordesamenleving.nl",
+    "org": "Gemeente Deurne"
+   },
+   {
+    "naam": "iburgerzaken.deurne.nl",
+    "org": "Gemeente Deurne"
+   },
+   {
+    "naam": "mijnkaart.deurne.nl",
+    "org": "Gemeente Deurne"
+   },
+   {
+    "naam": "www.deurne.nl",
+    "org": "Gemeente Deurne"
+   },
+   {
+    "naam": "www.huisvoordesamenleving.nl",
+    "org": "Gemeente Deurne"
+   },
+   {
+    "naam": "www.zorgindeurne.nl",
+    "org": "Gemeente Deurne"
+   },
+   {
+    "naam": "zorgindeurne.nl",
+    "org": "Gemeente Deurne"
+   }
+  ],
+  "verwijderd": [],
+  "gewijzigd": []
+ },
+ {
   "datum": "2026-08-08",
   "bron": "2026-08-08T00:45:04.422+02:00",
   "aantallen": {
