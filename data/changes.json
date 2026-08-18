@@ -1,5 +1,22 @@
 [
  {
+  "datum": "2026-08-18",
+  "bron": "2026-08-18T00:45:04.334+02:00",
+  "aantallen": {
+   "toegevoegd": 1,
+   "verwijderd": 0,
+   "gewijzigd": 0
+  },
+  "toegevoegd": [
+   {
+    "naam": "verkeerseducatienoord-holland.nl",
+    "org": "Provincie Noord-Holland"
+   }
+  ],
+  "verwijderd": [],
+  "gewijzigd": []
+ },
+ {
   "datum": "2026-08-14",
   "bron": "2026-08-14T00:45:04.588+02:00",
   "aantallen": {
