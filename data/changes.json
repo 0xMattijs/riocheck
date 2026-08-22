@@ -1,5 +1,60 @@
 [
  {
+  "datum": "2026-08-22",
+  "bron": "2026-08-22T00:45:03.538+02:00",
+  "aantallen": {
+   "toegevoegd": 2,
+   "verwijderd": 0,
+   "gewijzigd": 3
+  },
+  "toegevoegd": [
+   {
+    "naam": "www.epnuffic.nl",
+    "org": "Nuffic"
+   },
+   {
+    "naam": "www.tweetaligmbo.nl",
+    "org": "Nuffic"
+   }
+  ],
+  "verwijderd": [],
+  "gewijzigd": [
+   {
+    "naam": "www.beursopener.nl",
+    "org": "Nuffic",
+    "velden": [
+     {
+      "veld": "naam",
+      "van": "beursopener.nl",
+      "naar": "www.beursopener.nl"
+     }
+    ]
+   },
+   {
+    "naam": "www.grantfinder.nl",
+    "org": "Nuffic",
+    "velden": [
+     {
+      "veld": "naam",
+      "van": "grantfinder.nl",
+      "naar": "www.grantfinder.nl"
+     }
+    ]
+   },
+   {
+    "naam": "www.nlalumni.nl",
+    "org": "Nuffic",
+    "velden": [
+     {
+      "veld": "naam",
+      "van": "nlalumni.nl",
+      "naar": "www.nlalumni.nl"
+     }
+    ]
+   }
+  ]
+ },
+ {
   "datum": "2026-08-19",
   "bron": "2026-08-19T00:45:04.434+02:00",
   "aantallen": {
