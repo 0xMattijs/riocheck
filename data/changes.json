@@ -1,5 +1,38 @@
 [
  {
+  "datum": "2026-08-25",
+  "bron": "2026-08-25T00:45:04.390+02:00",
+  "aantallen": {
+   "toegevoegd": 5,
+   "verwijderd": 0,
+   "gewijzigd": 0
+  },
+  "toegevoegd": [
+   {
+    "naam": "iburgerzaken.dewolden.nl",
+    "org": "Gemeente De Wolden"
+   },
+   {
+    "naam": "iburgerzaken.hoogeveen.nl",
+    "org": "Gemeente Hoogeveen"
+   },
+   {
+    "naam": "openformulieren.dewolden.nl",
+    "org": "Gemeente De Wolden"
+   },
+   {
+    "naam": "openformulieren.hoogeveen.nl",
+    "org": "Gemeente Hoogeveen"
+   },
+   {
+    "naam": "werkenbijdeswo.nl",
+    "org": "Samenwerkingsorganisatie De Wolden Hoogeveen"
+   }
+  ],
+  "verwijderd": [],
+  "gewijzigd": []
+ },
+ {
   "datum": "2026-08-22",
   "bron": "2026-08-22T00:45:03.538+02:00",
   "aantallen": {
