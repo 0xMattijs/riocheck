@@ -1,5 +1,822 @@
 [
  {
+  "datum": "2026-09-01",
+  "bron": "2026-09-01T00:45:04.415+02:00",
+  "aantallen": {
+   "toegevoegd": 55,
+   "verwijderd": 0,
+   "gewijzigd": 53
+  },
+  "toegevoegd": [
+   {
+    "naam": "ai-geletterdheid.ssc-ict.nl",
+    "org": "SSC-ICT"
+   },
+   {
+    "naam": "aire.werkplaatsvoorlandbouwennatuur.nl",
+    "org": "Landbouw, Visserij, Voedselzekerheid en Natuur"
+   },
+   {
+    "naam": "api.farmacotherapeutischkompas.nl",
+    "org": "Zorginstituut Nederland"
+   },
+   {
+    "naam": "api.nvwa.nl",
+    "org": "Nederlandse Voedsel- en Warenautoriteit"
+   },
+   {
+    "naam": "checklistuitleners.nl",
+    "org": "Nederlandse Arbeidsinspectie"
+   },
+   {
+    "naam": "doc.istandaarden.nl",
+    "org": "Zorginstituut Nederland"
+   },
+   {
+    "naam": "e.ocnl.nl",
+    "org": "Rijksdienst voor Ondernemend Nederland"
+   },
+   {
+    "naam": "e.werkplaatsvoorlandbouwennatuur.nl",
+    "org": "Landbouw, Visserij, Voedselzekerheid en Natuur"
+   },
+   {
+    "naam": "em3783.woo-formulier.rijksoverheid.nl",
+    "org": "Binnenlandse Zaken en Koninkrijksrelaties"
+   },
+   {
+    "naam": "events.werkplaatsvoorlandbouwennatuur.nl",
+    "org": "Landbouw, Visserij, Voedselzekerheid en Natuur"
+   },
+   {
+    "naam": "festivalzo.open-overheid.nl",
+    "org": "Binnenlandse Zaken en Koninkrijksrelaties"
+   },
+   {
+    "naam": "geologischedienst.nl",
+    "org": "Nederlandse organisatie voor toegepast-natuurwetenschappelijk onderzoek"
+   },
+   {
+    "naam": "gis.geologischedienst.nl",
+    "org": "Nederlandse organisatie voor toegepast-natuurwetenschappelijk onderzoek"
+   },
+   {
+    "naam": "informatiemodel.istandaarden.nl",
+    "org": "Zorginstituut Nederland"
+   },
+   {
+    "naam": "internetsigur.nl",
+    "org": "Economische Zaken en Klimaat"
+   },
+   {
+    "naam": "kp-melding.atkm.nl",
+    "org": "Autoriteit online Terroristisch en Kinderpornografisch Materiaal"
+   },
+   {
+    "naam": "kwest.overheid.nl",
+    "org": "Justitie en Veiligheid"
+   },
+   {
+    "naam": "kwiv.rijksapplicaties.nl",
+    "org": "Binnenlandse Zaken en Koninkrijksrelaties"
+   },
+   {
+    "naam": "loket.zorginzicht.nl",
+    "org": "Zorginstituut Nederland"
+   },
+   {
+    "naam": "mail.kiesbeter.nl",
+    "org": "Zorginstituut Nederland"
+   },
+   {
+    "naam": "meldagressieengeweld.nl",
+    "org": "Justitie en Veiligheid"
+   },
+   {
+    "naam": "mijn.geologischedienst.nl",
+    "org": "Nederlandse organisatie voor toegepast-natuurwetenschappelijk onderzoek"
+   },
+   {
+    "naam": "modules.istandaarden.nl",
+    "org": "Zorginstituut Nederland"
+   },
+   {
+    "naam": "mx1.kiesbeter.nl",
+    "org": "Zorginstituut Nederland"
+   },
+   {
+    "naam": "mx2.kiesbeter.nl",
+    "org": "Zorginstituut Nederland"
+   },
+   {
+    "naam": "onlinepublicatie.topinkomens.nl",
+    "org": "Binnenlandse Zaken en Koninkrijksrelaties"
+   },
+   {
+    "naam": "peilprognosetoolijg.slimwatermanagement.nl",
+    "org": "Rijkswaterstaat"
+   },
+   {
+    "naam": "postergenerator.daszogefietst.nl",
+    "org": "Infrastructuur en Waterstaat"
+   },
+   {
+    "naam": "postergenerator.eentegeneenzaamheid.nl",
+    "org": "Volksgezondheid, Welzijn en Sport"
+   },
+   {
+    "naam": "pr.nkp.nl",
+    "org": "Infrastructuur en Waterstaat"
+   },
+   {
+    "naam": "prod-fcd-bemobile-aid-triggers.rws.nl",
+    "org": "Rijkswaterstaat"
+   },
+   {
+    "naam": "prod-fcd-bemobile-trajectorien.rws.nl",
+    "org": "Rijkswaterstaat"
+   },
+   {
+    "naam": "promtoolbox.zorginzicht.nl",
+    "org": "Zorginstituut Nederland"
+   },
+   {
+    "naam": "proto.farmacotherapeutischkompas.nl",
+    "org": "Zorginstituut Nederland"
+   },
+   {
+    "naam": "proto.horizonscangeneesmiddelen.nl",
+    "org": "Zorginstituut Nederland"
+   },
+   {
+    "naam": "proto.istandaarden.nl",
+    "org": "Zorginstituut Nederland"
+   },
+   {
+    "naam": "proto.zorginzicht.nl",
+    "org": "Zorginstituut Nederland"
+   },
+   {
+    "naam": "repository.istandaarden.nl",
+    "org": "Zorginstituut Nederland"
+   },
+   {
+    "naam": "send.versnellingshuisce.nl",
+    "org": "Infrastructuur en Waterstaat"
+   },
+   {
+    "naam": "shop.geologischedienst.nl",
+    "org": "Nederlandse organisatie voor toegepast-natuurwetenschappelijk onderzoek"
+   },
+   {
+    "naam": "social.logius.nl",
+    "org": "Logius"
+   },
+   {
+    "naam": "sso.istandaarden.nl",
+    "org": "Zorginstituut Nederland"
+   },
+   {
+    "naam": "tanjagonggrijp.eu",
+    "org": "Buitenlandse Zaken"
+   },
+   {
+    "naam": "thuisinzuiderhage.nl",
+    "org": "Rijksvastgoedbedrijf"
+   },
+   {
+    "naam": "tisgrade.eu",
+    "org": "Rijkswaterstaat"
+   },
+   {
+    "naam": "toi-melding.atkm.nl",
+    "org": "Autoriteit online Terroristisch en Kinderpornografisch Materiaal"
+   },
+   {
+    "naam": "webinar.events.werkplaatsvoorlandbouwennatuur.nl",
+    "org": "Landbouw, Visserij, Voedselzekerheid en Natuur"
+   },
+   {
+    "naam": "woo-formulier.rijksoverheid.nl",
+    "org": "Binnenlandse Zaken en Koninkrijksrelaties"
+   },
+   {
+    "naam": "www.anabolenwijzer.nl",
+    "org": "Dopingautoriteit"
+   },
+   {
+    "naam": "www.checklistuitleners.nl",
+    "org": "Nederlandse Arbeidsinspectie"
+   },
+   {
+    "naam": "www.digitaletoegang.nl",
+    "org": "Logius"
+   },
+   {
+    "naam": "www.geologischedienst.nl",
+    "org": "Nederlandse organisatie voor toegepast-natuurwetenschappelijk onderzoek"
+   },
+   {
+    "naam": "www.thuisinzuiderhage.nl",
+    "org": "Rijksvastgoedbedrijf"
+   },
+   {
+    "naam": "www.tisgrade.eu",
+    "org": "Rijkswaterstaat"
+   },
+   {
+    "naam": "zoeken.gratisvog.nl",
+    "org": "CIBG"
+   }
+  ],
+  "verwijderd": [],
+  "gewijzigd": [
+   {
+    "naam": "advisorycommitteeinternationallaw.nl",
+    "org": "Commissie van advies inzake volkenrechtelijke vraagstukken",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "data.pdok.nl",
+    "org": "Dienst voor het kadaster en de openbare registers",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "daw.kadaster.nl",
+    "org": "Dienst voor het kadaster en de openbare registers",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "documentatie.plp.kadaster.nl",
+    "org": "Dienst voor het kadaster en de openbare registers",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "dopefree.nl",
+    "org": "Dopingautoriteit",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "economischeveiligheid.nl",
+    "org": "Rijksdienst voor Ondernemend Nederland",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "em3783.woo-formulier.rijksoverheid.nl",
+    "org": "Onderwijs, Cultuur en Wetenschap",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "fallback.inspectiejz.nl",
+    "org": "Inspectie Gezondheidszorg en Jeugd",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "feeds.government.nl",
+    "org": "Dienst Publiek en Communicatie",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "feeds.rijksoverheid.nl",
+    "org": "Dienst Publiek en Communicatie",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "forum.pdok.nl",
+    "org": "Dienst voor het kadaster en de openbare registers",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "gdsnext.dopingautoriteit.nl",
+    "org": "Dopingautoriteit",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "healthdealnl.nl",
+    "org": "Volksgezondheid, Welzijn en Sport",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "huisstijl.minocw.nl",
+    "org": "Onderwijs, Cultuur en Wetenschap",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "ibw.datawonen.nl",
+    "org": "Binnenlandse Zaken en Koninkrijksrelaties",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "identifierservice.overheid.nl",
+    "org": "Logius",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "inspireaanmerking.nl",
+    "org": "Binnenlandse Zaken en Koninkrijksrelaties",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "internetsigur.nl",
+    "org": "Binnenlandse Zaken en Koninkrijksrelaties",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "jonglereneten.com",
+    "org": "Rijksdienst voor Ondernemend Nederland",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "kwest.overheid.nl",
+    "org": "Logius",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "logoservice-svc.overheid.nl",
+    "org": "Logius",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "mail.inspectiejz.nl",
+    "org": "Inspectie Gezondheidszorg en Jeugd",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "mail.ndw.nu",
+    "org": "Rijkswaterstaat",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "mijn.pdok.nl",
+    "org": "Dienst voor het kadaster en de openbare registers",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "mogin.ndw.nu",
+    "org": "Rijkswaterstaat",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "monitoring.plp.kadaster.nl",
+    "org": "Dienst voor het kadaster en de openbare registers",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "ms.gnss.kadaster.nl",
+    "org": "Dienst voor het kadaster en de openbare registers",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "ms.lm-portal.kadaster.nl",
+    "org": "Dienst voor het kadaster en de openbare registers",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "nl2100.nl",
+    "org": "Rijksvastgoedbedrijf",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "nt.ndw.nu",
+    "org": "Rijkswaterstaat",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "ondernemingsdossier.nl",
+    "org": "Dienst ICT Uitvoering",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "opendata.platformrijksoverheid.nl",
+    "org": "Dienst Publiek en Communicatie",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "panorama-nederland.nl",
+    "org": "Rijksvastgoedbedrijf",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "plp.kadaster.nl",
+    "org": "Dienst voor het kadaster en de openbare registers",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "portal.plp.kadaster.nl",
+    "org": "Dienst voor het kadaster en de openbare registers",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "rog.pleio.nl",
+    "org": "Binnenlandse Zaken en Koninkrijksrelaties",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "stijlgids.rijkswaterstaat.nl",
+    "org": "Rijkswaterstaat",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "truewinner.nl",
+    "org": "Dopingautoriteit",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "ttw.rijksapplicaties.nl",
+    "org": "Binnenlandse Zaken en Koninkrijksrelaties",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "validatieservice-eto.overheid.nl",
+    "org": "Logius",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "validatieservice.overheid.nl",
+    "org": "Logius",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "vibcheck.nl",
+    "org": "Nederlandse Arbeidsinspectie",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "webmail.inspectiejz.nl",
+    "org": "Inspectie Gezondheidszorg en Jeugd",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "woo-formulier.rijksoverheid.nl",
+    "org": "Onderwijs, Cultuur en Wetenschap",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "www.advisorycommitteeinternationallaw.nl",
+    "org": "Commissie van advies inzake volkenrechtelijke vraagstukken",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "www.dopefree.nl",
+    "org": "Dopingautoriteit",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "www.economischeveiligheid.nl",
+    "org": "Rijksdienst voor Ondernemend Nederland",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "www.healthdealnl.nl",
+    "org": "Volksgezondheid, Welzijn en Sport",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "www.jonglereneten.com",
+    "org": "Rijksdienst voor Ondernemend Nederland",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "www.nl2100.nl",
+    "org": "Rijksvastgoedbedrijf",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "www.ondernemingsdossier.nl",
+    "org": "Dienst ICT Uitvoering",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "www.panorama-nederland.nl",
+    "org": "Rijksvastgoedbedrijf",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   },
+   {
+    "naam": "www.vibcheck.nl",
+    "org": "Nederlandse Arbeidsinspectie",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-08-31"
+     }
+    ]
+   }
+  ]
+ },
+ {
   "datum": "2026-08-25",
   "bron": "2026-08-25T00:45:04.390+02:00",
   "aantallen": {
