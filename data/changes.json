@@ -1,5 +1,967 @@
 [
  {
+  "datum": "2026-09-02",
+  "bron": "2026-09-02T00:45:04.574+02:00",
+  "aantallen": {
+   "toegevoegd": 72,
+   "verwijderd": 0,
+   "gewijzigd": 60
+  },
+  "toegevoegd": [
+   {
+    "naam": "acpt.meldagressieengeweld.nl",
+    "org": "Justitie en Veiligheid"
+   },
+   {
+    "naam": "advisorycommitteeinternationallaw.nl",
+    "org": "Commissie van advies inzake volkenrechtelijke vraagstukken"
+   },
+   {
+    "naam": "archeobotanie.archis.cultureelerfgoed.nl",
+    "org": "Rijksdienst voor het Cultureel Erfgoed"
+   },
+   {
+    "naam": "archeozoologie.archis.cultureelerfgoed.nl",
+    "org": "Rijksdienst voor het Cultureel Erfgoed"
+   },
+   {
+    "naam": "behandel.hulpmiddelen.farmatec.nl",
+    "org": "CIBG"
+   },
+   {
+    "naam": "bnc3.deafsluitdijk.nl",
+    "org": "Rijkswaterstaat"
+   },
+   {
+    "naam": "bnc3.tst.rws.nl",
+    "org": "Rijkswaterstaat"
+   },
+   {
+    "naam": "botova.rijkswaterstaat.nl",
+    "org": "Rijkswaterstaat"
+   },
+   {
+    "naam": "coronadashboard.nl",
+    "org": "Rijksinstituut voor Volksgezondheid en Milieu"
+   },
+   {
+    "naam": "data-backoffice.ndw.nu",
+    "org": "Rijkswaterstaat"
+   },
+   {
+    "naam": "desinformatieinjegemeente.nl",
+    "org": "Binnenlandse Zaken en Koninkrijksrelaties"
+   },
+   {
+    "naam": "dfei.nl",
+    "org": "Financiën"
+   },
+   {
+    "naam": "dienstverleningskompas.venster.nl",
+    "org": "Binnenlandse Zaken en Koninkrijksrelaties"
+   },
+   {
+    "naam": "dutchculturekorea.com",
+    "org": "Buitenlandse Zaken"
+   },
+   {
+    "naam": "em767.ikwilcirculairinkopen.nl",
+    "org": "Rijksdienst voor Ondernemend Nederland"
+   },
+   {
+    "naam": "em778.partnersforwater.nl",
+    "org": "Rijksdienst voor Ondernemend Nederland"
+   },
+   {
+    "naam": "em79.coa.nl",
+    "org": "Centraal Orgaan opvang asielzoekers"
+   },
+   {
+    "naam": "energietransitie.nl",
+    "org": "Rijksdienst voor Ondernemend Nederland"
+   },
+   {
+    "naam": "event-mailer.werkenbijdji.nl",
+    "org": "Dienst Justitiële Inrichtingen"
+   },
+   {
+    "naam": "events.werkenbijdji.nl",
+    "org": "Dienst Justitiële Inrichtingen"
+   },
+   {
+    "naam": "fmis.tst.rws.nl",
+    "org": "Rijkswaterstaat"
+   },
+   {
+    "naam": "fns6g.nl",
+    "org": "Nederlandse organisatie voor toegepast-natuurwetenschappelijk onderzoek"
+   },
+   {
+    "naam": "futurenetworkservices.nl",
+    "org": "Nederlandse organisatie voor toegepast-natuurwetenschappelijk onderzoek"
+   },
+   {
+    "naam": "generiekefuncties.nl",
+    "org": "Volksgezondheid, Welzijn en Sport"
+   },
+   {
+    "naam": "goedopkamers.nl",
+    "org": "Binnenlandse Zaken en Koninkrijksrelaties"
+   },
+   {
+    "naam": "hortiroad2indianl.com",
+    "org": "Rijksdienst voor Ondernemend Nederland"
+   },
+   {
+    "naam": "informatiehuishouding.nl",
+    "org": "Binnenlandse Zaken en Koninkrijksrelaties"
+   },
+   {
+    "naam": "intranet.cultureelerfgoed.nl",
+    "org": "Rijksdienst voor het Cultureel Erfgoed"
+   },
+   {
+    "naam": "kabgsxm.com",
+    "org": "Binnenlandse Zaken en Koninkrijksrelaties"
+   },
+   {
+    "naam": "kennisbank.awti.nl",
+    "org": "Adviesraad voor wetenschap, technologie en innovatie"
+   },
+   {
+    "naam": "kfr-a.oprijk.nl",
+    "org": "Organisatie en Personeel Rijk"
+   },
+   {
+    "naam": "kfr-o.oprijk.nl",
+    "org": "Organisatie en Personeel Rijk"
+   },
+   {
+    "naam": "kfr-s.oprijk.nl",
+    "org": "Organisatie en Personeel Rijk"
+   },
+   {
+    "naam": "kfr.oprijk.nl",
+    "org": "Organisatie en Personeel Rijk"
+   },
+   {
+    "naam": "mail-amazonses.werkenbijdji.nl",
+    "org": "Dienst Justitiële Inrichtingen"
+   },
+   {
+    "naam": "mail.migratiecijfers.nl",
+    "org": "Justitie en Veiligheid"
+   },
+   {
+    "naam": "mail.partnersforwater.nl",
+    "org": "Rijksdienst voor Ondernemend Nederland"
+   },
+   {
+    "naam": "mattermost.bkwi.nl",
+    "org": "Uitvoeringsinstituut Werknemersverzekeringen"
+   },
+   {
+    "naam": "migratiecijfers.nl",
+    "org": "Justitie en Veiligheid"
+   },
+   {
+    "naam": "mijn.hulpmiddelen.farmatec.nl",
+    "org": "CIBG"
+   },
+   {
+    "naam": "mijnvraagovercorona.nl",
+    "org": "Rijksinstituut voor Volksgezondheid en Milieu"
+   },
+   {
+    "naam": "nagesloten.nl",
+    "org": "Volksgezondheid, Welzijn en Sport"
+   },
+   {
+    "naam": "ofl.nl",
+    "org": "Overlegorgaan Fysieke Leefomgeving"
+   },
+   {
+    "naam": "panoramax.ndw.nu",
+    "org": "Rijkswaterstaat"
+   },
+   {
+    "naam": "productiviteitsraad.nl",
+    "org": "Economische Zaken en Klimaat"
+   },
+   {
+    "naam": "spamfilter.onderwijsraad.nl",
+    "org": "Onderwijsraad"
+   },
+   {
+    "naam": "staatscommissieoverheidsingrijpenjeugd.nl",
+    "org": "Justitie en Veiligheid"
+   },
+   {
+    "naam": "statline.rivm.nl",
+    "org": "Rijksinstituut voor Volksgezondheid en Milieu"
+   },
+   {
+    "naam": "ventilerenzogedaan.nl",
+    "org": "Volksgezondheid, Welzijn en Sport"
+   },
+   {
+    "naam": "versnellingsnetwerkcirculairinkopen.nl",
+    "org": "Rijksdienst voor Ondernemend Nederland"
+   },
+   {
+    "naam": "werkenbij.rvo.nl",
+    "org": "Rijksdienst voor Ondernemend Nederland"
+   },
+   {
+    "naam": "wervinginformatiehuishouding.nl",
+    "org": "Binnenlandse Zaken en Koninkrijksrelaties"
+   },
+   {
+    "naam": "www.advisorycommitteeinternationallaw.nl",
+    "org": "Commissie van advies inzake volkenrechtelijke vraagstukken"
+   },
+   {
+    "naam": "www.botovaservice.nl",
+    "org": "Rijkswaterstaat"
+   },
+   {
+    "naam": "www.coronadashboard.nl",
+    "org": "Rijksinstituut voor Volksgezondheid en Milieu"
+   },
+   {
+    "naam": "www.dfei.nl",
+    "org": "Financiën"
+   },
+   {
+    "naam": "www.dutchculturekorea.com",
+    "org": "Buitenlandse Zaken"
+   },
+   {
+    "naam": "www.energietransitie.nl",
+    "org": "Rijksdienst voor Ondernemend Nederland"
+   },
+   {
+    "naam": "www.fns6g.nl",
+    "org": "Nederlandse organisatie voor toegepast-natuurwetenschappelijk onderzoek"
+   },
+   {
+    "naam": "www.futurenetworkservices.nl",
+    "org": "Nederlandse organisatie voor toegepast-natuurwetenschappelijk onderzoek"
+   },
+   {
+    "naam": "www.generiekefuncties.nl",
+    "org": "Volksgezondheid, Welzijn en Sport"
+   },
+   {
+    "naam": "www.goedopkamers.nl",
+    "org": "Binnenlandse Zaken en Koninkrijksrelaties"
+   },
+   {
+    "naam": "www.hortiroad2indianl.com",
+    "org": "Rijksdienst voor Ondernemend Nederland"
+   },
+   {
+    "naam": "www.informatiehuishouding.nl",
+    "org": "Binnenlandse Zaken en Koninkrijksrelaties"
+   },
+   {
+    "naam": "www.migratiecijfers.nl",
+    "org": "Justitie en Veiligheid"
+   },
+   {
+    "naam": "www.mijnvraagovercorona.nl",
+    "org": "Rijksinstituut voor Volksgezondheid en Milieu"
+   },
+   {
+    "naam": "www.ofl.nl",
+    "org": "Overlegorgaan Fysieke Leefomgeving"
+   },
+   {
+    "naam": "www.productiviteitsraad.nl",
+    "org": "Economische Zaken en Klimaat"
+   },
+   {
+    "naam": "www.ventilerenzogedaan.nl",
+    "org": "Volksgezondheid, Welzijn en Sport"
+   },
+   {
+    "naam": "www.versnellingsnetwerkcirculairinkopen.nl",
+    "org": "Rijksdienst voor Ondernemend Nederland"
+   },
+   {
+    "naam": "www.wervinginformatiehuishouding.nl",
+    "org": "Binnenlandse Zaken en Koninkrijksrelaties"
+   },
+   {
+    "naam": "zoeken.zorgaanbiedersportaal.nl",
+    "org": "CIBG"
+   }
+  ],
+  "verwijderd": [],
+  "gewijzigd": [
+   {
+    "naam": "a1oost.nl",
+    "org": "Rijkswaterstaat",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "admin.minbuza.org",
+    "org": "Buitenlandse Zaken",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "agrologistiek.nl",
+    "org": "Landbouw, Visserij, Voedselzekerheid en Natuur",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "circularfestivals.com",
+    "org": "Infrastructuur en Waterstaat",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "circularfestivals.nl",
+    "org": "Infrastructuur en Waterstaat",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "comma.elearningbz.nl",
+    "org": "Buitenlandse Zaken",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "coronadashboard.nl",
+    "org": "Volksgezondheid, Welzijn en Sport",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "dfg.datawonen.nl",
+    "org": "Binnenlandse Zaken en Koninkrijksrelaties",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "elearningbz.nl",
+    "org": "Buitenlandse Zaken",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "forum.regels.overheid.nl",
+    "org": "Binnenlandse Zaken en Koninkrijksrelaties",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "gedeeldeliefde.nl",
+    "org": "Infrastructuur en Waterstaat",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "handleiding.platformrijksoverheidonline.nl",
+    "org": "Dienst Publiek en Communicatie",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "imap.minbuza.org",
+    "org": "Buitenlandse Zaken",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "informatiehuishouding.nl",
+    "org": "Onderwijs, Cultuur en Wetenschap",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "kennisbank.helpdeskwater.nl",
+    "org": "Rijkswaterstaat",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "mail.botova-service.nl",
+    "org": "Rijkswaterstaat",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "mail.botovaservice.nl",
+    "org": "Rijkswaterstaat",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "mail.minbuza.org",
+    "org": "Buitenlandse Zaken",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "mail.toetsingonline.nl",
+    "org": "Centrale Commissie Mensgebonden Onderzoek",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "mijnvraagovercorona.nl",
+    "org": "Volksgezondheid, Welzijn en Sport",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "minbuza.org",
+    "org": "Buitenlandse Zaken",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "natuurambitie.nl",
+    "org": "Landbouw, Visserij, Voedselzekerheid en Natuur",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "natuurkaravaan.nl",
+    "org": "Landbouw, Visserij, Voedselzekerheid en Natuur",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "ofl.nl",
+    "org": "Infrastructuur en Waterstaat",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "open-rws.nl",
+    "org": "Rijkswaterstaat",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "partnersvoorwater.nl",
+    "org": "Rijksdienst voor Ondernemend Nederland",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "pop.minbuza.org",
+    "org": "Buitenlandse Zaken",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "regels.overheid.nl",
+    "org": "Binnenlandse Zaken en Koninkrijksrelaties",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "rental.buitenlevenvakanties.nl",
+    "org": "Staatsbosbeheer",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "rvb-inspecties.nl",
+    "org": "Rijksvastgoedbedrijf",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "t01062013.botova-service.nl",
+    "org": "Rijkswaterstaat",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "toetsingonline.ccmo.nl",
+    "org": "Centrale Commissie Mensgebonden Onderzoek",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "vacature.werkenbijdeeu.nl",
+    "org": "Buitenlandse Zaken",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "vacature.werkenvoorinternationaleorganisaties.nl",
+    "org": "Buitenlandse Zaken",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "webmail.botova-service.nl",
+    "org": "Rijkswaterstaat",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "webmail.botovaservice.nl",
+    "org": "Rijkswaterstaat",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "webmail.minbuza.org",
+    "org": "Buitenlandse Zaken",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "wervinginformatiehuishouding.nl",
+    "org": "Onderwijs, Cultuur en Wetenschap",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "winkel.staatsbosbeheer.nl",
+    "org": "Staatsbosbeheer",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "www.a1oost.nl",
+    "org": "Rijkswaterstaat",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "www.agrologistiek.nl",
+    "org": "Landbouw, Visserij, Voedselzekerheid en Natuur",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "www.akkoordverbeteringproductsamenstelling.nl",
+    "org": "Rijksinstituut voor Volksgezondheid en Milieu",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "www.centruminternationaalrecht.nl",
+    "org": "Buitenlandse Zaken",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "www.circularfestivals.com",
+    "org": "Infrastructuur en Waterstaat",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "www.circularfestivals.nl",
+    "org": "Infrastructuur en Waterstaat",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "www.coronadashboard.nl",
+    "org": "Volksgezondheid, Welzijn en Sport",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "www.gedeeldeliefde.nl",
+    "org": "Infrastructuur en Waterstaat",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "www.informatiehuishouding.nl",
+    "org": "Onderwijs, Cultuur en Wetenschap",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "www.mijnvraagovercorona.nl",
+    "org": "Volksgezondheid, Welzijn en Sport",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "www.natuurambitie.nl",
+    "org": "Landbouw, Visserij, Voedselzekerheid en Natuur",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "www.nlbranding.nl",
+    "org": "Buitenlandse Zaken",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "www.ofl.nl",
+    "org": "Infrastructuur en Waterstaat",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "www.open-rws.nl",
+    "org": "Rijkswaterstaat",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "www.partnersvoorwater.nl",
+    "org": "Rijksdienst voor Ondernemend Nederland",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "www.rvb-inspecties.nl",
+    "org": "Rijksvastgoedbedrijf",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "www.wervinginformatiehuishouding.nl",
+    "org": "Onderwijs, Cultuur en Wetenschap",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "www.zorgpact.nl",
+    "org": "Volksgezondheid, Welzijn en Sport",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "www.zuinigopzorgverleners.nl",
+    "org": "Volksgezondheid, Welzijn en Sport",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "zorgpact.nl",
+    "org": "Volksgezondheid, Welzijn en Sport",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   },
+   {
+    "naam": "zuinigopzorgverleners.nl",
+    "org": "Volksgezondheid, Welzijn en Sport",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-01"
+     }
+    ]
+   }
+  ]
+ },
+ {
   "datum": "2026-09-01",
   "bron": "2026-09-01T00:45:04.415+02:00",
   "aantallen": {
