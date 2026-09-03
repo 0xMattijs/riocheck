@@ -1,5 +1,82 @@
 [
  {
+  "datum": "2026-09-03",
+  "bron": "2026-09-03T00:45:05.023+02:00",
+  "aantallen": {
+   "toegevoegd": 16,
+   "verwijderd": 0,
+   "gewijzigd": 0
+  },
+  "toegevoegd": [
+   {
+    "naam": "belastingbalie.noordoostpolder.nl",
+    "org": "Gemeente Noordoostpolder"
+   },
+   {
+    "naam": "bestuursmonitor.prvgld.nl",
+    "org": "Provincie Gelderland"
+   },
+   {
+    "naam": "degeldersedag.nl",
+    "org": "Provincie Gelderland"
+   },
+   {
+    "naam": "denkmee.gelderland.nl",
+    "org": "Provincie Gelderland"
+   },
+   {
+    "naam": "ervaarhetov.nl",
+    "org": "Provincie Gelderland"
+   },
+   {
+    "naam": "gelderlandherdenkt.nl",
+    "org": "Provincie Gelderland"
+   },
+   {
+    "naam": "gelreports.nl",
+    "org": "Provincie Gelderland"
+   },
+   {
+    "naam": "totallytrafficgelderland.nl",
+    "org": "Provincie Gelderland"
+   },
+   {
+    "naam": "verkeerseducatiegelderland.nl",
+    "org": "Provincie Gelderland"
+   },
+   {
+    "naam": "vrijheidgelderland.nl",
+    "org": "Provincie Gelderland"
+   },
+   {
+    "naam": "water-wonderen.nl",
+    "org": "Provincie Gelderland"
+   },
+   {
+    "naam": "www.ervaarhetov.nl",
+    "org": "Provincie Gelderland"
+   },
+   {
+    "naam": "www.gelderlandherdenkt.nl",
+    "org": "Provincie Gelderland"
+   },
+   {
+    "naam": "www.totallytrafficgelderland.nl",
+    "org": "Provincie Gelderland"
+   },
+   {
+    "naam": "www.verkeerseducatiegelderland.nl",
+    "org": "Provincie Gelderland"
+   },
+   {
+    "naam": "www.vrijheidgelderland.nl",
+    "org": "Provincie Gelderland"
+   }
+  ],
+  "verwijderd": [],
+  "gewijzigd": []
+ },
+ {
   "datum": "2026-09-02",
   "bron": "2026-09-02T00:45:04.574+02:00",
   "aantallen": {
