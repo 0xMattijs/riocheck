@@ -1,5 +1,227 @@
 [
  {
+  "datum": "2026-09-08",
+  "bron": "2026-09-08T00:45:04.503+02:00",
+  "aantallen": {
+   "toegevoegd": 0,
+   "verwijderd": 0,
+   "gewijzigd": 19
+  },
+  "toegevoegd": [],
+  "verwijderd": [],
+  "gewijzigd": [
+   {
+    "naam": "begrotingnoordholland.info",
+    "org": "Provincie Noord-Holland",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-30"
+     }
+    ]
+   },
+   {
+    "naam": "begrotingnoordholland.net",
+    "org": "Provincie Noord-Holland",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-30"
+     }
+    ]
+   },
+   {
+    "naam": "begrotingnoordholland.org",
+    "org": "Provincie Noord-Holland",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-30"
+     }
+    ]
+   },
+   {
+    "naam": "infon236.nl",
+    "org": "Provincie Noord-Holland",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-30"
+     }
+    ]
+   },
+   {
+    "naam": "infon244.nl",
+    "org": "Provincie Noord-Holland",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-30"
+     }
+    ]
+   },
+   {
+    "naam": "infon246.nl",
+    "org": "Provincie Noord-Holland",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-30"
+     }
+    ]
+   },
+   {
+    "naam": "noord-holland.net",
+    "org": "Provincie Noord-Holland",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-30"
+     }
+    ]
+   },
+   {
+    "naam": "noord-holland.org",
+    "org": "Provincie Noord-Holland",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-30"
+     }
+    ]
+   },
+   {
+    "naam": "noordholland.org",
+    "org": "Provincie Noord-Holland",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-30"
+     }
+    ]
+   },
+   {
+    "naam": "provincie-nh.info",
+    "org": "Provincie Noord-Holland",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-30"
+     }
+    ]
+   },
+   {
+    "naam": "provincie-nh.org",
+    "org": "Provincie Noord-Holland",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-30"
+     }
+    ]
+   },
+   {
+    "naam": "provincie-noord-holland.info",
+    "org": "Provincie Noord-Holland",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-30"
+     }
+    ]
+   },
+   {
+    "naam": "provincie-noord-holland.org",
+    "org": "Provincie Noord-Holland",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-30"
+     }
+    ]
+   },
+   {
+    "naam": "provincie-noordholland.org",
+    "org": "Provincie Noord-Holland",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-30"
+     }
+    ]
+   },
+   {
+    "naam": "provincienh.info",
+    "org": "Provincie Noord-Holland",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-30"
+     }
+    ]
+   },
+   {
+    "naam": "provincienh.org",
+    "org": "Provincie Noord-Holland",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-30"
+     }
+    ]
+   },
+   {
+    "naam": "provincienoord-holland.info",
+    "org": "Provincie Noord-Holland",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-30"
+     }
+    ]
+   },
+   {
+    "naam": "provincienoord-holland.org",
+    "org": "Provincie Noord-Holland",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-30"
+     }
+    ]
+   },
+   {
+    "naam": "provincienoordholland.org",
+    "org": "Provincie Noord-Holland",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-30"
+     }
+    ]
+   }
+  ]
+ },
+ {
   "datum": "2026-09-03",
   "bron": "2026-09-03T00:45:05.023+02:00",
   "aantallen": {
