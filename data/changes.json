@@ -1,5 +1,42 @@
 [
  {
+  "datum": "2026-09-15",
+  "bron": "2026-09-15T00:45:05.343+02:00",
+  "aantallen": {
+   "toegevoegd": 6,
+   "verwijderd": 0,
+   "gewijzigd": 0
+  },
+  "toegevoegd": [
+   {
+    "naam": "bovi2050.nl",
+    "org": "Vallei en Veluwe"
+   },
+   {
+    "naam": "grebbedijk.com",
+    "org": "Vallei en Veluwe"
+   },
+   {
+    "naam": "nieuws.noordoostpolder.nl",
+    "org": "Gemeente Noordoostpolder"
+   },
+   {
+    "naam": "noordoostpolder.mijnafspraakmaken.nl",
+    "org": "Gemeente Noordoostpolder"
+   },
+   {
+    "naam": "raad.noordoostpolder.nl",
+    "org": "Gemeente Noordoostpolder"
+   },
+   {
+    "naam": "www.grebbedijk.com",
+    "org": "Vallei en Veluwe"
+   }
+  ],
+  "verwijderd": [],
+  "gewijzigd": []
+ },
+ {
   "datum": "2026-09-08",
   "bron": "2026-09-08T00:45:04.503+02:00",
   "aantallen": {
