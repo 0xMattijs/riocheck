@@ -1,5 +1,788 @@
 [
  {
+  "datum": "2026-09-18",
+  "bron": "2026-09-18T00:45:04.019+02:00",
+  "aantallen": {
+   "toegevoegd": 8,
+   "verwijderd": 0,
+   "gewijzigd": 67
+  },
+  "toegevoegd": [
+   {
+    "naam": "duurzaam.molenlanden.nl",
+    "org": "Gemeente Molenlanden"
+   },
+   {
+    "naam": "klimaatadaptatie.molenlanden.nl",
+    "org": "Gemeente Molenlanden"
+   },
+   {
+    "naam": "lcemeierijstad.nl",
+    "org": "Gemeente Meierijstad"
+   },
+   {
+    "naam": "molenlanden.nl",
+    "org": "Gemeente Molenlanden"
+   },
+   {
+    "naam": "projectenmolenlanden.nl",
+    "org": "Gemeente Molenlanden"
+   },
+   {
+    "naam": "warmteprogramma.molenlanden.nl",
+    "org": "Gemeente Molenlanden"
+   },
+   {
+    "naam": "www.lcemeierijstad.nl",
+    "org": "Gemeente Meierijstad"
+   },
+   {
+    "naam": "www.molenlanden.nl",
+    "org": "Gemeente Molenlanden"
+   }
+  ],
+  "verwijderd": [],
+  "gewijzigd": [
+   {
+    "naam": "bezoekschijndel.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "bezoekveghel.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "bizzi.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "cjgschijndel.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "cmsintranet.meierijstad.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "deneul.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "dorusvanoorschot.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "edienstenburgerzaken-test.meierijstad.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "energiehuis-meierijstad.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "foodparkveghel.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "janheesters.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "landschapsparkvlagheide.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "landschapsparkvlagheideberg.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "link.socialewegwijzer.meierijstad.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "liquit.meierijstad.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "lvs.meierijstadbeweegt.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "meieriistad.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "meierijstad.biz",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "meierijstad.com",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "meierijstad.dev",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "meierijstad.eu",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "meierijstad.info",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "meierijstad.org",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "meierijstadherdenkt.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "meierijstadmijmert.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "meierijstadvoorondernemers.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "meierstad.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "meijerijstad.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "meldingen-acc.meierijstad.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "mijn.meierijstadbeweegt.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "mijnpim.nu",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "museumjanheestershuis.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "museummeierijstad.com",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "museummeierijstad.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "optimisd.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "pimacademy.nu",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "pimactief.nu",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "pimleerwerkbedrijf.nu",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "pimsupport.nu",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "pimvitaal.nu",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "pimwelkom.nu",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "preprod-belasting.meierijstad.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "preprod.inloggen.meierijstad.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "publicmedia.meierijstad.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "raadhuisschijndel.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "raadmeierijstad.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "schijndel.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "schijndelontmoet.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "sera.meierijstadbeweegt.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "servicedesk.meierijstad.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "sint-oedenrode.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "skipdietrip.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "sociaalwijkteamschijndel.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "sportawardsmeierijstad.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "sportbedrijf.com",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "sportmeierijstad.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "ssvfusie.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "test-cmsintranet.meierijstad.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "testwebsite.meierijstad.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "veghel.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "veghels-buiten.com",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "veghelsbuiten.com",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "visitmeierijstad.com",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "vlagheideberg.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "voedsel-var.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "webmail.meierijstad.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   },
+   {
+    "naam": "zwembaddemolenhey.nl",
+    "org": "Gemeente Meierijstad",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-17"
+     }
+    ]
+   }
+  ]
+ },
+ {
   "datum": "2026-09-15",
   "bron": "2026-09-15T00:45:05.343+02:00",
   "aantallen": {
