@@ -1,5 +1,437 @@
 [
  {
+  "datum": "2026-09-22",
+  "bron": "2026-09-22T00:45:04.333+02:00",
+  "aantallen": {
+   "toegevoegd": 44,
+   "verwijderd": 0,
+   "gewijzigd": 22
+  },
+  "toegevoegd": [
+   {
+    "naam": "acceptatie.feature1.metainfomaker.rws.nl",
+    "org": "Rijkswaterstaat"
+   },
+   {
+    "naam": "acmconsuwijzer.nl",
+    "org": "Autoriteit Consument en Markt"
+   },
+   {
+    "naam": "amdata.nvwa.nl",
+    "org": "Nederlandse Voedsel- en Warenautoriteit"
+   },
+   {
+    "naam": "digitaledienst.overheid.nl",
+    "org": "Binnenlandse Zaken en Koninkrijksrelaties"
+   },
+   {
+    "naam": "digitaliseringvth.nl",
+    "org": "Infrastructuur en Waterstaat"
+   },
+   {
+    "naam": "eerste-kamer.eu",
+    "org": "Eerste Kamer der Staten-Generaal"
+   },
+   {
+    "naam": "eerstekamer.info",
+    "org": "Eerste Kamer der Staten-Generaal"
+   },
+   {
+    "naam": "eerstekamer.tv",
+    "org": "Eerste Kamer der Staten-Generaal"
+   },
+   {
+    "naam": "europapoort.eu",
+    "org": "Eerste Kamer der Staten-Generaal"
+   },
+   {
+    "naam": "fillercheck.nl",
+    "org": "Inspectie Gezondheidszorg en Jeugd"
+   },
+   {
+    "naam": "generiekegeocomponenten.nl",
+    "org": "Dienst voor het kadaster en de openbare registers"
+   },
+   {
+    "naam": "ikbenreservist.nl",
+    "org": "Defensie"
+   },
+   {
+    "naam": "kenniscentrum-ce.nl",
+    "org": "Directoraat-generaal Openbaar Bestuur en Democratische Rechtsstaat"
+   },
+   {
+    "naam": "kenniscentrum-oo.nl",
+    "org": "Directoraat-generaal Openbaar Bestuur en Democratische Rechtsstaat"
+   },
+   {
+    "naam": "leverjevuurwerkin.nl",
+    "org": "Infrastructuur en Waterstaat"
+   },
+   {
+    "naam": "mail.ikbenreservist.nl",
+    "org": "Defensie"
+   },
+   {
+    "naam": "medicijncheck.nl",
+    "org": "College ter Beoordeling van Geneesmiddelen"
+   },
+   {
+    "naam": "metainfomaker.rws.nl",
+    "org": "Rijkswaterstaat"
+   },
+   {
+    "naam": "mijn-bureau.nl",
+    "org": "Binnenlandse Zaken en Koninkrijksrelaties"
+   },
+   {
+    "naam": "noord.events.werkplaatsvoorlandbouwennatuur.nl",
+    "org": "Landbouw, Visserij, Voedselzekerheid en Natuur"
+   },
+   {
+    "naam": "onsgeldontcijferd.rekenkamer.nl",
+    "org": "Algemene Rekenkamer"
+   },
+   {
+    "naam": "oost.events.werkplaatsvoorlandbouwennatuur.nl",
+    "org": "Landbouw, Visserij, Voedselzekerheid en Natuur"
+   },
+   {
+    "naam": "partijfinanciering.nl",
+    "org": "Binnenlandse Zaken en Koninkrijksrelaties"
+   },
+   {
+    "naam": "regels.overheid.nl",
+    "org": "Logius"
+   },
+   {
+    "naam": "terreinmeubilair.staatsbosbeheer.nl",
+    "org": "Staatsbosbeheer"
+   },
+   {
+    "naam": "thuisindestreek.nl",
+    "org": "Staatsbosbeheer"
+   },
+   {
+    "naam": "toetsingskader.inspectie-oe.nl",
+    "org": "Inspectie Overheidsinformatie en Erfgoed"
+   },
+   {
+    "naam": "www.acmconsuwijzer.nl",
+    "org": "Autoriteit Consument en Markt"
+   },
+   {
+    "naam": "www.bewegwijzeringsdienst.nl",
+    "org": "Rijkswaterstaat"
+   },
+   {
+    "naam": "www.dagvanhetbeleid.nl",
+    "org": "Directoraat-Generaal Straffen en Beschermen (DGSenB)"
+   },
+   {
+    "naam": "www.dementieinkaart.nl",
+    "org": "Volksgezondheid, Welzijn en Sport"
+   },
+   {
+    "naam": "www.digitaliseringvth.nl",
+    "org": "Infrastructuur en Waterstaat"
+   },
+   {
+    "naam": "www.eerste-kamer.eu",
+    "org": "Eerste Kamer der Staten-Generaal"
+   },
+   {
+    "naam": "www.eerstekamer.info",
+    "org": "Eerste Kamer der Staten-Generaal"
+   },
+   {
+    "naam": "www.eerstekamer.tv",
+    "org": "Eerste Kamer der Staten-Generaal"
+   },
+   {
+    "naam": "www.fillercheck.nl",
+    "org": "Inspectie Gezondheidszorg en Jeugd"
+   },
+   {
+    "naam": "www.generiekegeocomponenten.nl",
+    "org": "Dienst voor het kadaster en de openbare registers"
+   },
+   {
+    "naam": "www.ikbenreservist.nl",
+    "org": "Defensie"
+   },
+   {
+    "naam": "www.kenniscentrum-ce.nl",
+    "org": "Directoraat-generaal Openbaar Bestuur en Democratische Rechtsstaat"
+   },
+   {
+    "naam": "www.kenniscentrum-oo.nl",
+    "org": "Directoraat-generaal Openbaar Bestuur en Democratische Rechtsstaat"
+   },
+   {
+    "naam": "www.leverjevuurwerkin.nl",
+    "org": "Infrastructuur en Waterstaat"
+   },
+   {
+    "naam": "www.medicijncheck.nl",
+    "org": "College ter Beoordeling van Geneesmiddelen"
+   },
+   {
+    "naam": "www.partijfinanciering.nl",
+    "org": "Binnenlandse Zaken en Koninkrijksrelaties"
+   },
+   {
+    "naam": "zorginstituut.archiefweb.eu",
+    "org": "Zorginstituut Nederland"
+   }
+  ],
+  "verwijderd": [],
+  "gewijzigd": [
+   {
+    "naam": "agroforestrynetwerk.nl",
+    "org": "Landbouw, Visserij, Voedselzekerheid en Natuur",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-21"
+     }
+    ]
+   },
+   {
+    "naam": "api.dementieinkaart.nl",
+    "org": "Volksgezondheid, Welzijn en Sport",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-21"
+     }
+    ]
+   },
+   {
+    "naam": "events.werkplaatsvoorlandbouwennatuur.nl",
+    "org": "Landbouw, Visserij, Voedselzekerheid en Natuur",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-21"
+     }
+    ]
+   },
+   {
+    "naam": "gccs15.com",
+    "org": "Buitenlandse Zaken",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-21"
+     }
+    ]
+   },
+   {
+    "naam": "gccs15.nl",
+    "org": "Buitenlandse Zaken",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-21"
+     }
+    ]
+   },
+   {
+    "naam": "kenniscentrum-ce.nl",
+    "org": "Rijkswaterstaat",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-21"
+     }
+    ]
+   },
+   {
+    "naam": "kenniscentrum-oo.nl",
+    "org": "Rijkswaterstaat",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-21"
+     }
+    ]
+   },
+   {
+    "naam": "kinderzitjes.nl",
+    "org": "Infrastructuur en Waterstaat",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-21"
+     }
+    ]
+   },
+   {
+    "naam": "mail.justis.nl",
+    "org": "Justis",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-21"
+     }
+    ]
+   },
+   {
+    "naam": "ontwerpenaanklimaatenwater.nl",
+    "org": "Binnenlandse Zaken en Koninkrijksrelaties",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-21"
+     }
+    ]
+   },
+   {
+    "naam": "storingsdienst.rgd.nl",
+    "org": "Rijksvastgoedbedrijf",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-21"
+     }
+    ]
+   },
+   {
+    "naam": "v1.dementieinkaart.nl",
+    "org": "Volksgezondheid, Welzijn en Sport",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-21"
+     }
+    ]
+   },
+   {
+    "naam": "webinar.events.werkplaatsvoorlandbouwennatuur.nl",
+    "org": "Landbouw, Visserij, Voedselzekerheid en Natuur",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-21"
+     }
+    ]
+   },
+   {
+    "naam": "www.agroforestrynetwerk.nl",
+    "org": "Landbouw, Visserij, Voedselzekerheid en Natuur",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-21"
+     }
+    ]
+   },
+   {
+    "naam": "www.dagvanhetbeleid.nl",
+    "org": "Justitie en Veiligheid",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-21"
+     }
+    ]
+   },
+   {
+    "naam": "www.europapoort.eu",
+    "org": "Eerste Kamer der Staten-Generaal",
+    "velden": [
+     {
+      "veld": "onder",
+      "van": null,
+      "naar": "europapoort.eu"
+     }
+    ]
+   },
+   {
+    "naam": "www.kenniscentrum-ce.nl",
+    "org": "Rijkswaterstaat",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-21"
+     }
+    ]
+   },
+   {
+    "naam": "www.kenniscentrum-oo.nl",
+    "org": "Rijkswaterstaat",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-21"
+     }
+    ]
+   },
+   {
+    "naam": "www.kinderzitjes.nl",
+    "org": "Infrastructuur en Waterstaat",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-21"
+     }
+    ]
+   },
+   {
+    "naam": "www.meetingpointdji.nl",
+    "org": "Dienst Justitiële Inrichtingen",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-21"
+     }
+    ]
+   },
+   {
+    "naam": "www.ontwerpenaanklimaatenwater.nl",
+    "org": "Binnenlandse Zaken en Koninkrijksrelaties",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-21"
+     }
+    ]
+   },
+   {
+    "naam": "zorginstituut.archiefweb.eu",
+    "org": "Volksgezondheid, Welzijn en Sport",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-09-21"
+     }
+    ]
+   }
+  ]
+ },
+ {
   "datum": "2026-09-18",
   "bron": "2026-09-18T00:45:04.019+02:00",
   "aantallen": {
