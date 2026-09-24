@@ -1,5 +1,22 @@
 [
  {
+  "datum": "2026-09-24",
+  "bron": "2026-09-24T00:45:03.620+02:00",
+  "aantallen": {
+   "toegevoegd": 1,
+   "verwijderd": 0,
+   "gewijzigd": 0
+  },
+  "toegevoegd": [
+   {
+    "naam": "bladel.nl",
+    "org": "Gemeente Bladel"
+   }
+  ],
+  "verwijderd": [],
+  "gewijzigd": []
+ },
+ {
   "datum": "2026-09-22",
   "bron": "2026-09-22T00:45:04.333+02:00",
   "aantallen": {
