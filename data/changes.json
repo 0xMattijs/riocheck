@@ -1,5 +1,42 @@
 [
  {
+  "datum": "2026-09-25",
+  "bron": "2026-09-25T00:45:04.184+02:00",
+  "aantallen": {
+   "toegevoegd": 3,
+   "verwijderd": 0,
+   "gewijzigd": 1
+  },
+  "toegevoegd": [
+   {
+    "naam": "koninklijkebibliotheek.nl",
+    "org": "Koninklijke Bibliotheek"
+   },
+   {
+    "naam": "onlinebibliotheek.nl",
+    "org": "Koninklijke Bibliotheek"
+   },
+   {
+    "naam": "www.onlinebibliotheek.nl",
+    "org": "Koninklijke Bibliotheek"
+   }
+  ],
+  "verwijderd": [],
+  "gewijzigd": [
+   {
+    "naam": "www.koninklijkebibliotheek.nl",
+    "org": "Koninklijke Bibliotheek",
+    "velden": [
+     {
+      "veld": "onder",
+      "van": null,
+      "naar": "koninklijkebibliotheek.nl"
+     }
+    ]
+   }
+  ]
+ },
+ {
   "datum": "2026-09-24",
   "bron": "2026-09-24T00:45:03.620+02:00",
   "aantallen": {
