@@ -1,5 +1,62 @@
 [
  {
+  "datum": "2026-10-01",
+  "bron": "2026-10-01T00:45:04.166+02:00",
+  "aantallen": {
+   "toegevoegd": 8,
+   "verwijderd": 0,
+   "gewijzigd": 1
+  },
+  "toegevoegd": [
+   {
+    "naam": "bladel.begrotingsapp.nl",
+    "org": "Gemeente Bladel"
+   },
+   {
+    "naam": "bladel.bestuurlijkeinformatie.nl",
+    "org": "Gemeente Bladel"
+   },
+   {
+    "naam": "bladel.mijnafspraakmaken.nl",
+    "org": "Gemeente Bladel"
+   },
+   {
+    "naam": "bladel.nl",
+    "org": "Gemeente Bladel"
+   },
+   {
+    "naam": "blauwgroenbladel.nl",
+    "org": "Gemeente Bladel"
+   },
+   {
+    "naam": "duurzaambladel.nl",
+    "org": "Gemeente Bladel"
+   },
+   {
+    "naam": "iburgerzaken.bladel.nl",
+    "org": "Gemeente Bladel"
+   },
+   {
+    "naam": "woningbouwkaart.bladel.nl",
+    "org": "Gemeente Bladel"
+   }
+  ],
+  "verwijderd": [],
+  "gewijzigd": [
+   {
+    "naam": "bladel.nl",
+    "org": "Gemeente Bladel",
+    "velden": [
+     {
+      "veld": "onder",
+      "van": null,
+      "naar": "bladel.nl"
+     }
+    ]
+   }
+  ]
+ },
+ {
   "datum": "2026-09-25",
   "bron": "2026-09-25T00:45:04.184+02:00",
   "aantallen": {
