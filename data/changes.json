@@ -1,5 +1,54 @@
 [
  {
+  "datum": "2026-10-09",
+  "bron": "2026-10-09T00:45:04.188+02:00",
+  "aantallen": {
+   "toegevoegd": 0,
+   "verwijderd": 9,
+   "gewijzigd": 0
+  },
+  "toegevoegd": [],
+  "verwijderd": [
+   {
+    "naam": "aqualarm.nl",
+    "org": "Rijkswaterstaat"
+   },
+   {
+    "naam": "digid.nl",
+    "org": "Logius"
+   },
+   {
+    "naam": "duurzame-infra.nl",
+    "org": "Infrastructuur en Waterstaat"
+   },
+   {
+    "naam": "duurzameinfra.nl",
+    "org": "Infrastructuur en Waterstaat"
+   },
+   {
+    "naam": "feeds.duurzame-infra.nl",
+    "org": "Infrastructuur en Waterstaat"
+   },
+   {
+    "naam": "nix.nl",
+    "org": "Volksgezondheid, Welzijn en Sport"
+   },
+   {
+    "naam": "opendata.duurzame-infra.nl",
+    "org": "Infrastructuur en Waterstaat"
+   },
+   {
+    "naam": "staatvangroningenennoorddrenthe.nl",
+    "org": "Binnenlandse Zaken en Koninkrijksrelaties"
+   },
+   {
+    "naam": "www.duurzame-infra.nl",
+    "org": "Infrastructuur en Waterstaat"
+   }
+  ],
+  "gewijzigd": []
+ },
+ {
   "datum": "2026-10-01",
   "bron": "2026-10-01T00:45:04.166+02:00",
   "aantallen": {
