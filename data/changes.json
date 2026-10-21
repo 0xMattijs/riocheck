@@ -1,5 +1,26 @@
 [
  {
+  "datum": "2026-10-21",
+  "bron": "2026-10-21T00:45:04.456+02:00",
+  "aantallen": {
+   "toegevoegd": 2,
+   "verwijderd": 0,
+   "gewijzigd": 0
+  },
+  "toegevoegd": [
+   {
+    "naam": "bc-hhw.nl",
+    "org": "Provincie Noord-Holland"
+   },
+   {
+    "naam": "pnh-bchhw.nl",
+    "org": "Provincie Noord-Holland"
+   }
+  ],
+  "verwijderd": [],
+  "gewijzigd": []
+ },
+ {
   "datum": "2026-10-09",
   "bron": "2026-10-09T00:45:04.188+02:00",
   "aantallen": {
