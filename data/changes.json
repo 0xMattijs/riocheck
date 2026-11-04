@@ -1,5 +1,331 @@
 [
  {
+  "datum": "2026-11-03",
+  "bron": "2026-11-03T23:45:03.809+01:00",
+  "aantallen": {
+   "toegevoegd": 34,
+   "verwijderd": 0,
+   "gewijzigd": 16
+  },
+  "toegevoegd": [
+   {
+    "naam": "activeren.mijn-betaaloverzicht.nl",
+    "org": "Centraal Justitieel Incassobureau"
+   },
+   {
+    "naam": "agw-esb.rijkswaterstaat.nl",
+    "org": "Rijkswaterstaat"
+   },
+   {
+    "naam": "am.oprijk.nl",
+    "org": "Organisatie en Personeel Rijk"
+   },
+   {
+    "naam": "app-management-ui.app-manager.mijn-betaaloverzicht.nl",
+    "org": "Centraal Justitieel Incassobureau"
+   },
+   {
+    "naam": "app-management-ui.mijn-betaaloverzicht.nl",
+    "org": "Centraal Justitieel Incassobureau"
+   },
+   {
+    "naam": "app-manager.mijn-betaaloverzicht.nl",
+    "org": "Centraal Justitieel Incassobureau"
+   },
+   {
+    "naam": "app.mijn-betaaloverzicht.nl",
+    "org": "Centraal Justitieel Incassobureau"
+   },
+   {
+    "naam": "code.digitaledienst.overheid.nl",
+    "org": "Economische Zaken en Klimaat"
+   },
+   {
+    "naam": "ddapi20-waterwebservices.rijkswaterstaat.nl",
+    "org": "Rijkswaterstaat"
+   },
+   {
+    "naam": "ddapi20-waterwebservices.rws.nl",
+    "org": "Rijkswaterstaat"
+   },
+   {
+    "naam": "digitaledienst.overheid.nl",
+    "org": "Economische Zaken en Klimaat"
+   },
+   {
+    "naam": "docs.mijn-betaaloverzicht.nl",
+    "org": "Centraal Justitieel Incassobureau"
+   },
+   {
+    "naam": "gouverneursintmaarten.com",
+    "org": "Binnenlandse Zaken en Koninkrijksrelaties"
+   },
+   {
+    "naam": "governorsintmaarten.com",
+    "org": "Binnenlandse Zaken en Koninkrijksrelaties"
+   },
+   {
+    "naam": "i3ml.nl",
+    "org": "Economische Zaken en Klimaat"
+   },
+   {
+    "naam": "infoinorder.minbuza.nl",
+    "org": "Buitenlandse Zaken"
+   },
+   {
+    "naam": "lt.oprijk.nl",
+    "org": "Organisatie en Personeel Rijk"
+   },
+   {
+    "naam": "mail-amazonses.open-overheid.nl",
+    "org": "Binnenlandse Zaken en Koninkrijksrelaties"
+   },
+   {
+    "naam": "minocw-events.nl",
+    "org": "Onderwijs, Cultuur en Wetenschap"
+   },
+   {
+    "naam": "minvws.opensourcewerken.nl",
+    "org": "Binnenlandse Zaken en Koninkrijksrelaties"
+   },
+   {
+    "naam": "natuurdoelen.rli.nl",
+    "org": "Raad voor de leefomgeving en infrastructuur"
+   },
+   {
+    "naam": "secumailer.ccmo.nl",
+    "org": "Centrale Commissie Mensgebonden Onderzoek"
+   },
+   {
+    "naam": "secumailer.euthanasiecommissie.nl",
+    "org": "Volksgezondheid, Welzijn en Sport"
+   },
+   {
+    "naam": "stembureauinstructie.kiesraad.nl",
+    "org": "Dienst voor het kadaster en de openbare registers"
+   },
+   {
+    "naam": "toekomstrijksdienst.nl",
+    "org": "Rijksvoorlichtingsdienst"
+   },
+   {
+    "naam": "toolkit.denkvooruit.nl",
+    "org": "Nationaal Coördinator Terrorismebestrijding en Veiligheid"
+   },
+   {
+    "naam": "toolkitisjouwhuisklaarvoordetoekomst.nl",
+    "org": "Binnenlandse Zaken en Koninkrijksrelaties"
+   },
+   {
+    "naam": "www.duurzame-infra.nl",
+    "org": "Infrastructuur en Waterstaat"
+   },
+   {
+    "naam": "www.gouverneursintmaarten.com",
+    "org": "Binnenlandse Zaken en Koninkrijksrelaties"
+   },
+   {
+    "naam": "www.governorsintmaarten.com",
+    "org": "Binnenlandse Zaken en Koninkrijksrelaties"
+   },
+   {
+    "naam": "www.i3ml.nl",
+    "org": "Economische Zaken en Klimaat"
+   },
+   {
+    "naam": "www.infoinorder.minbuza.nl",
+    "org": "Buitenlandse Zaken"
+   },
+   {
+    "naam": "www.toekomstrijksdienst.nl",
+    "org": "Rijksvoorlichtingsdienst"
+   },
+   {
+    "naam": "www.toolkitisjouwhuisklaarvoordetoekomst.nl",
+    "org": "Binnenlandse Zaken en Koninkrijksrelaties"
+   }
+  ],
+  "verwijderd": [],
+  "gewijzigd": [
+   {
+    "naam": "becop.nl",
+    "org": "Logius",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-11-03"
+     }
+    ]
+   },
+   {
+    "naam": "digitaledienst.overheid.nl",
+    "org": "Binnenlandse Zaken en Koninkrijksrelaties",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-11-03"
+     }
+    ]
+   },
+   {
+    "naam": "electronische-overheidspublicaties.nl",
+    "org": "Logius",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-11-03"
+     }
+    ]
+   },
+   {
+    "naam": "ertms.nl",
+    "org": "ProRail B.V.",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-11-03"
+     }
+    ]
+   },
+   {
+    "naam": "i3ml.nl",
+    "org": "Rijksdienst voor Ondernemend Nederland",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-11-03"
+     }
+    ]
+   },
+   {
+    "naam": "kenniscentrumbeleidenregelgeving.nl",
+    "org": "Justitie en Veiligheid",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-11-03"
+     }
+    ]
+   },
+   {
+    "naam": "map.udap.nl",
+    "org": "Infrastructuur en Waterstaat",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-11-03"
+     }
+    ]
+   },
+   {
+    "naam": "stembureauinstructie.nl",
+    "org": "Binnenlandse Zaken en Koninkrijksrelaties",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-11-03"
+     }
+    ]
+   },
+   {
+    "naam": "websiteregisterrijksoverheid.nl",
+    "org": "Dienst Publiek en Communicatie",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-11-03"
+     }
+    ]
+   },
+   {
+    "naam": "wervinginformatiehuishouding.nl",
+    "org": "Binnenlandse Zaken en Koninkrijksrelaties",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-11-03"
+     }
+    ]
+   },
+   {
+    "naam": "www.ertms.nl",
+    "org": "Infrastructuur en Waterstaat",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-11-03"
+     }
+    ]
+   },
+   {
+    "naam": "www.i3ml.nl",
+    "org": "Rijksdienst voor Ondernemend Nederland",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-11-03"
+     }
+    ]
+   },
+   {
+    "naam": "www.kenniscentrumbeleidenregelgeving.nl",
+    "org": "Justitie en Veiligheid",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-11-03"
+     }
+    ]
+   },
+   {
+    "naam": "www.stembureauinstructie.nl",
+    "org": "Binnenlandse Zaken en Koninkrijksrelaties",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-11-03"
+     }
+    ]
+   },
+   {
+    "naam": "www.websiteregisterrijksoverheid.nl",
+    "org": "Dienst Publiek en Communicatie",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-11-03"
+     }
+    ]
+   },
+   {
+    "naam": "www.wervinginformatiehuishouding.nl",
+    "org": "Binnenlandse Zaken en Koninkrijksrelaties",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-11-03"
+     }
+    ]
+   }
+  ]
+ },
+ {
   "datum": "2026-10-21",
   "bron": "2026-10-21T00:45:04.456+02:00",
   "aantallen": {
