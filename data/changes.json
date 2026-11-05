@@ -1,5 +1,22 @@
 [
  {
+  "datum": "2026-11-04",
+  "bron": "2026-11-04T23:45:04.234+01:00",
+  "aantallen": {
+   "toegevoegd": 1,
+   "verwijderd": 0,
+   "gewijzigd": 0
+  },
+  "toegevoegd": [
+   {
+    "naam": "tnl-wwt.nl",
+    "org": "Provincie Noord-Holland"
+   }
+  ],
+  "verwijderd": [],
+  "gewijzigd": []
+ },
+ {
   "datum": "2026-11-03",
   "bron": "2026-11-03T23:45:03.809+01:00",
   "aantallen": {
