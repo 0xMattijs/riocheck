@@ -1,5 +1,29 @@
 [
  {
+  "datum": "2026-11-18",
+  "bron": "2026-11-18T23:45:03.658+01:00",
+  "aantallen": {
+   "toegevoegd": 0,
+   "verwijderd": 0,
+   "gewijzigd": 1
+  },
+  "toegevoegd": [],
+  "verwijderd": [],
+  "gewijzigd": [
+   {
+    "naam": "www.cocreatesa.nl",
+    "org": "Buitenlandse Zaken",
+    "velden": [
+     {
+      "veld": "tot",
+      "van": null,
+      "naar": "2026-01-15"
+     }
+    ]
+   }
+  ]
+ },
+ {
   "datum": "2026-11-04",
   "bron": "2026-11-04T23:45:04.234+01:00",
   "aantallen": {
